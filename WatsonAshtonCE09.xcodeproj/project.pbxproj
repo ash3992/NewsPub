@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		4797DB752515A72100220B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DB742515A72100220B83 /* AppDelegate.swift */; };
 		4797DB772515A72100220B83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DB762515A72100220B83 /* SceneDelegate.swift */; };
-		4797DB792515A72100220B83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DB782515A72100220B83 /* ViewController.swift */; };
 		4797DB7C2515A72100220B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797DB7A2515A72100220B83 /* Main.storyboard */; };
 		4797DB7E2515A72300220B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4797DB7D2515A72300220B83 /* Assets.xcassets */; };
 		4797DB812515A72300220B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797DB7F2515A72300220B83 /* LaunchScreen.storyboard */; };
 		4797DB8C2515A72400220B83 /* WatsonAshtonCE09Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DB8B2515A72400220B83 /* WatsonAshtonCE09Tests.swift */; };
 		4797DB972515A72400220B83 /* WatsonAshtonCE09UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DB962515A72400220B83 /* WatsonAshtonCE09UITests.swift */; };
+		4797DBEE251A5E7800220B83 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DBED251A5E7800220B83 /* Sources.swift */; };
+		4797DBF3251A685800220B83 /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DBF2251A685800220B83 /* SourcesViewController.swift */; };
+		4797DBFB251A846C00220B83 /* SourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DBFA251A846C00220B83 /* SourcesTableViewCell.swift */; };
+		4797DC00251A8DD100220B83 /* AtriclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DBFF251A8DD100220B83 /* AtriclesViewController.swift */; };
+		4797DC0B251A9A9900220B83 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DC0A251A9A9900220B83 /* Article.swift */; };
+		4797DC11251BF59600220B83 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DC10251BF59600220B83 /* ArticleTableViewCell.swift */; };
+		4797DC19251C03C000220B83 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DC18251C03C000220B83 /* ArticleDetailViewController.swift */; };
+		4797DC21251D436D00220B83 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DC20251D436D00220B83 /* SettingsViewController.swift */; };
+		4797DC29251D4E5700220B83 /* UserDefaults_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797DC28251D4E5700220B83 /* UserDefaults_EXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		4797DB712515A72100220B83 /* WatsonAshtonCE09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonAshtonCE09.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4797DB742515A72100220B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4797DB762515A72100220B83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4797DB782515A72100220B83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4797DB7B2515A72100220B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4797DB7D2515A72300220B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4797DB802515A72300220B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		4797DB922515A72400220B83 /* WatsonAshtonCE09UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatsonAshtonCE09UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4797DB962515A72400220B83 /* WatsonAshtonCE09UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatsonAshtonCE09UITests.swift; sourceTree = "<group>"; };
 		4797DB982515A72400220B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4797DBED251A5E7800220B83 /* Sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		4797DBF2251A685800220B83 /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
+		4797DBFA251A846C00220B83 /* SourcesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesTableViewCell.swift; sourceTree = "<group>"; };
+		4797DBFF251A8DD100220B83 /* AtriclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtriclesViewController.swift; sourceTree = "<group>"; };
+		4797DC0A251A9A9900220B83 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		4797DC10251BF59600220B83 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		4797DC18251C03C000220B83 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		4797DC20251D436D00220B83 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4797DC28251D4E5700220B83 /* UserDefaults_EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_EXT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,19 @@
 			children = (
 				4797DB742515A72100220B83 /* AppDelegate.swift */,
 				4797DB762515A72100220B83 /* SceneDelegate.swift */,
-				4797DB782515A72100220B83 /* ViewController.swift */,
+				4797DBF2251A685800220B83 /* SourcesViewController.swift */,
+				4797DBFF251A8DD100220B83 /* AtriclesViewController.swift */,
+				4797DC18251C03C000220B83 /* ArticleDetailViewController.swift */,
+				4797DC20251D436D00220B83 /* SettingsViewController.swift */,
 				4797DB7A2515A72100220B83 /* Main.storyboard */,
 				4797DB7D2515A72300220B83 /* Assets.xcassets */,
 				4797DB7F2515A72300220B83 /* LaunchScreen.storyboard */,
 				4797DB822515A72300220B83 /* Info.plist */,
+				4797DC0A251A9A9900220B83 /* Article.swift */,
+				4797DBED251A5E7800220B83 /* Sources.swift */,
+				4797DC28251D4E5700220B83 /* UserDefaults_EXT.swift */,
+				4797DBFA251A846C00220B83 /* SourcesTableViewCell.swift */,
+				4797DC10251BF59600220B83 /* ArticleTableViewCell.swift */,
 			);
 			path = WatsonAshtonCE09;
 			sourceTree = "<group>";
@@ -258,7 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4797DB792515A72100220B83 /* ViewController.swift in Sources */,
+				4797DBEE251A5E7800220B83 /* Sources.swift in Sources */,
+				4797DC11251BF59600220B83 /* ArticleTableViewCell.swift in Sources */,
+				4797DC21251D436D00220B83 /* SettingsViewController.swift in Sources */,
+				4797DBF3251A685800220B83 /* SourcesViewController.swift in Sources */,
+				4797DC29251D4E5700220B83 /* UserDefaults_EXT.swift in Sources */,
+				4797DBFB251A846C00220B83 /* SourcesTableViewCell.swift in Sources */,
+				4797DC19251C03C000220B83 /* ArticleDetailViewController.swift in Sources */,
+				4797DC0B251A9A9900220B83 /* Article.swift in Sources */,
+				4797DC00251A8DD100220B83 /* AtriclesViewController.swift in Sources */,
 				4797DB752515A72100220B83 /* AppDelegate.swift in Sources */,
 				4797DB772515A72100220B83 /* SceneDelegate.swift in Sources */,
 			);
